@@ -60,22 +60,22 @@ TutorTime делает это проще и быстрее — и оставля
 ## 📸 Скриншоты
 
 <p align="center">
-  <img src="screenshots/schedule.png" height="500"/>
+  <img src="screenshots/schedule.png" height="400"/>
   <br><em>Просмотр расписания</em>
 </p>
 
 <p align="center">
-  <img src="screenshots/profile.png" height="500"/>
+  <img src="screenshots/profile.png" height="400"/>
   <br><em>Профиль</em>
 </p>
 
 <p align="center">
-  <img src="screenshots/students.png" height="500"/>
+  <img src="screenshots/students.png" height="400"/>
   <br><em>Ученики</em>
 </p>
 
 <p align="center">
-  <img src="screenshots/telegram.png" height="500"/>
+  <img src="screenshots/telegram.png" height="400"/>
   <br><em>Telegram-интеграция</em>
 </p>
 

@@ -1,98 +1,112 @@
-<h1 align="center">🎓 TutorTime</h1>
-<p align="center">Умная платформа для репетиторов и их учеников</p>
+<div align="center">
+
+# 🎓 TutorTime
+
+**Smart CRM & Booking Platform for Tutors and Students**
 
 <p align="center">
-  <a href="https://tutor-time.ru"><img src="https://img.shields.io/badge/Live Site-Visit-00B386?style=for-the-badge&logo=google-chrome&logoColor=white"/></a>
-  <a href="https://t.me/stoicismguy"><img src="https://img.shields.io/badge/Telegram-Contact-26A5E4?style=for-the-badge&logo=telegram&logoColor=white"/></a>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Telegram_API-2CA5E0?style=flat-square&logo=telegram&logoColor=white" />
+</p>
+
+[Project Overview](#-project-overview) • [Features](#-features) • [Telegram Ecosystem](#-telegram-ecosystem) • [Tech Stack](#-tech-stack)
+
+</div>
+
+---
+
+## 📌 Project Overview
+
+**TutorTime** is an end-to-end B2B SaaS platform built to simplify the administrative workflow for private tutors. 
+
+Tutors waste hours every week on scheduling, rescheduling, and sending reminders manually. TutorTime automates this process by providing a clean web interface for scheduling management and seamless **Telegram Bot/Mini App integration** for instant notifications and booking.
+
+> **Development Speed:** The core MVP (including backend logic, frontend, auth, and Telegram integration) was built and shipped in **11 days**.
+
+<br>
+
+<div align="center">
+  <img src="screenshots/schedule.png" width="100%" alt="TutorTime Schedule & Booking System" />
+</div>
+
+<br>
+
+<details>
+  <summary><b>🖥️ Click to view more Web Interface screens (Profile, Students, Integrations)</b></summary>
+  <br>
+  <p align="center">
+    <img src="screenshots/profile.png" width="32%" alt="Profile View" />
+    <img src="screenshots/students.png" width="32%" alt="Students List View" />
+    <img src="screenshots/telegram.png" width="32%" alt="Telegram Integration View" />
+  </p>
+</details>
+
+<br>
+
+## 🚀 Features
+
+- **Role-Based Access:** Separate dashboards and workflows for Tutors and Students.
+- **Smart Scheduling Engine:** Booking system with conflict prevention and automated slot management.
+- **Telegram Ecosystem:** Tutors and students receive instant notifications via a Telegram Bot.
+- **Authentication:** Secure JWT & OAuth 2.0 implementation with seamless Telegram `initData` login support.
+- **Student Management:** Centralized dashboard to track student progress and upcoming lessons.
+
+---
+
+## 📱 Telegram Ecosystem
+
+<div align="center">
+  <img src="screenshots/mobile-showcase.png" width="100%" alt="TutorTime Telegram Mini App" />
+</div>
+
+<br>
+
+While the platform has a full web interface, the core user experience is built around the **Telegram Mini App**. 
+
+Instead of forcing users to download a standalone app or constantly log into a website, TutorTime integrates directly into the messenger they already use daily:
+
+- **Seamless Login:** Uses Telegram `initData` to securely authenticate users without passwords.
+- **Native UI:** The Mini App interface is heavily optimized for mobile, offering a faster and cleaner experience than the web dashboard.
+- **Push Notifications:** Instant alerts for new bookings, cancellations, or schedule changes delivered directly by the bot.
+- **Quick Booking:** Students can open the bot and book a slot in 3 clicks without leaving Telegram.
+
+---
+
+## 🛠 Tech Stack
+
+### Backend
+<p>
+  <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" />
+  <img src="https://img.shields.io/badge/Django_REST-CA4245?style=flat-square&logo=django&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/JWT_Auth-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" />
+</p>
+
+### Frontend
+<p>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
+</p>
+
+### Infrastructure & Integrations
+<p>
+  <img src="https://img.shields.io/badge/Telegram_Bot_API-2CA5E0?style=flat-square&logo=telegram&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker_Compose-1488C6?style=flat-square&logo=docker&logoColor=white" />
 </p>
 
 ---
 
-## 📌 О проекте
-
-**TutorTime** — это платформа, упрощающая жизнь репетиторам:
-
--   Позволяет **ученикам бронировать и отменять занятия**
--   **Подключает Telegram**, чтобы репетиторы получали уведомления прямо в мессенджере
--   Даёт доступ к удобному онлайн-расписанию
--   В будущем — возможность загружать **материалы, ссылки и домашние задания**
-
----
-
-## 💡 Мотивация
-
-Проект родился из реальных запросов репетиторов.  
-Слишком много времени уходит на переписки, пересогласования и потерянные сообщения.  
-TutorTime делает это проще и быстрее — и оставляет время на само обучение.
-
----
-
-## 🔧 Технологии
-
-| Категория          | Стек                                                                                                                                                                                                       |
-| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🧠 Backend         | ![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white) ![DRF](https://img.shields.io/badge/DRF-CA4245?style=flat&logo=django&logoColor=white)                        |
-| 🎨 Frontend        | ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) |
-| 🛢️ База данных     | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)                                                                                                   |
-| 🐳 Контейнеризация | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Docker Compose](https://img.shields.io/badge/Docker--Compose-1488C6?style=flat&logo=docker&logoColor=white) |
-| 🔗 Интеграции      | ![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat&logo=telegram&logoColor=white)                                                                                                         |
-| 🔐 Аутентификация  | ![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white) ![OAuth 2.0](https://img.shields.io/badge/OAuth2-3C3C3D?style=flat&logo=oauth&logoColor=white)               |
-
----
-
-## 🧩 Реализовано
-
--   [x] Авторизация преподавателя и ученика
--   [x] Просмотр и изменение расписания
--   [x] Уведомления через Telegram
--   [x] Отмена и бронирование занятий
--   [x] Панель преподавателя
--   [x] Сбор MVP за **11 дней**
-
----
-
-## 🔗 Ссылки
-
-🌐 **Сайт:** [tutor-time.ru](https://tutor-time.ru)
-
----
-
-## 📸 Скриншоты
-
-<p align="center">
-  <img src="screenshots/schedule.png" height="400"/>
-  <br><em>Просмотр расписания</em>
-</p>
-
-<p align="center">
-  <img src="screenshots/profile.png" height="400"/>
-  <br><em>Профиль</em>
-</p>
-
-<p align="center">
-  <img src="screenshots/students.png" height="400"/>
-  <br><em>Ученики</em>
-</p>
-
-<p align="center">
-  <img src="screenshots/telegram.png" height="400"/>
-  <br><em>Telegram-интеграция</em>
-</p>
-
----
-
-## 🛣️ В планах
-
--   [ ] Загрузка и привязка материалов к занятиям
--   [ ] Домашние задания и ссылки
--   [ ] Оплата занятий внутри платформы
--   [ ] Публичные страницы преподавателей
--   [ ] Мобильная версия + адаптивность
-
----
-
-## 🧑‍💻 Автор
-
-**Даниил Терентьев**  
-Python / Django / Fullstack разработчик  
-Telegram: [@stoicismguy](https://t.me/stoicismguy)
+<br>
+<div align="center">
+  <p><i>Crafted with passion for engineering</i></p>
+  <a href="https://github.com/stoicismguy" target="_blank">
+    <img src="https://raw.githubusercontent.com/stoicismguy/stoicismguy/main/assets/signature.svg" width="300" alt="Daniil Terentev" />
+  </a>
+</div>
+<br>

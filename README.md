@@ -38,7 +38,7 @@ Tutors waste hours every week on scheduling, rescheduling, and sending reminders
   <summary><b>🖥️ Click to view more Web Interface screens (Profile, Students, Integrations)</b></summary>
   <br>
   <div align="center">
-    <img src="screenshots/profile.png" width="100%" alt="Profile View" />
+    <img src="screenshots/profile2.png" width="100%" alt="Profile View" />
     <br><br>
     <img src="screenshots/students.png" width="100%" alt="Students List View" />
     <br><br>
